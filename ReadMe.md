@@ -17,7 +17,7 @@ Within your working directory:
 
 Install Dependencies by 
 
-running composer install from command prompt/terminal
+running 'composer install' from command prompt/terminal
 
 Setup the database by 
 
@@ -34,18 +34,18 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 then open 
-your terminal and within your working directory 
+your terminal and within your working directoryrun 
 
-run php artisan migrate
+'php artisan migrate'
 
 
 Then to setup application key, in your terminal run
 
-php artisan key:generate 
+'php artisan key:generate' 
 
 then finally run the command 
 
-php artisan serve 
+'php artisan serve' 
 
 to boot up your localhost
 
