@@ -3,7 +3,9 @@ Requirements to run program
 Before getting started, here are some thing you'll need:
 
 PHP7
+
 Composer
+
 A terminal
 
 After cloning repo into your local machine follow theses steps.
