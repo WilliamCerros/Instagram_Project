@@ -34,9 +34,20 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 then open 
-your terminal and within your working directory run php artisan migrate
-Then to setup application key, in your terminal run, php artisan key:generate then finally
-run the command php artisan serve to boot up your localhost
+your terminal and within your working directory 
+
+run php artisan migrate
+
+
+Then to setup application key, in your terminal run
+
+php artisan key:generate 
+
+then finally run the command 
+
+php artisan serve 
+
+to boot up your localhost
 
 
 Copy and paste localhost to web browser.
