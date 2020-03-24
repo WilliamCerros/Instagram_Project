@@ -6,14 +6,12 @@ Laravel: https://laravel.com/docs/5.8/installation
 
 PHP7
 
-Composer
+Composer: https://getcomposer.org/download/
 
 A terminal
 
 After cloning repo into your local machine follow theses steps.
 
-Composer install:
-Link to download composer -> https://getcomposer.org/download/
 
 Within your working directory:
 
