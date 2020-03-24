@@ -15,12 +15,19 @@ Link to download composer -> https://getcomposer.org/download/
 
 Within your working directory:
 
-Install Dependencies by running composer install from command prompt/terminal
+Install Dependencies by 
 
-Setup the database by finding the file .env.example and rename it to .env
+running composer install from command prompt/terminal
+
+Setup the database by 
+
+finding the file .env.example and rename it to .env
 Then open the database folder and create a file named database.sqlite
 After creating the file open your .env file in a text editor and make the following
-changes. DB_CONNECTION = sqlite then delete the following lines DB_HOST=127.0.0.1
+changes. DB_CONNECTION = sqlite then delete the following lines 
+
+
+DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
