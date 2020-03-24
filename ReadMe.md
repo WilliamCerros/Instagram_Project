@@ -2,7 +2,7 @@ Requirements to run program
 
 Before getting started, here are some thing you'll need:
 
-Laravel
+Laravel download instructions: https://laravel.com/docs/5.8/installation
 
 PHP7
 
