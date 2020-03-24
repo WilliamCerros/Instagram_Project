@@ -2,6 +2,8 @@ Requirements to run program
 
 Before getting started, here are some thing you'll need:
 
+Laravel
+
 PHP7
 
 Composer
