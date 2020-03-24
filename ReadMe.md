@@ -11,16 +11,23 @@ After cloning repo into your local machine follow theses steps.
 Composer install:
 Link to download composer -> https://getcomposer.org/download/
 
-After installing composer on your local machine, navigate to the project directory and follow these steps.
-Install Dependencies:
-Composer install
+Within your working directory:
 
-Open up a terminal window and run php artisan migrate within directory
+Install Dependencies by running composer install from command prompt/terminal
 
-Set up application key:
-php artisan key:generate
+Setup the database by finding the file .env.example and rename it to .env
+Then open the database folder and create a file named database.sqlite
+After creating the file open your .env file in a text editor and make the following
+changes. DB_CONNECTION = sqlite then delete the following lines DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
 
-Get the server running:
-php artisan serve
+then open 
+your terminal and within your working directory run php artisan migrate
+Then to setup application key, in your terminal run, php artisan key:generate then finally
+run the command php artisan serve to boot up your localhost
+
 
 Copy and paste localhost to web browser.
