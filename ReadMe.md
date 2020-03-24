@@ -2,10 +2,16 @@ Requirements to run program
 
 Before getting started, here are some thing you'll need:
 
-PHP7 - Learn how to install it in Windows, Mac or Linux
-Composer - Learn how to install it
-A terminal - Your OS should already come with one
+PHP7
+Composer
+A terminal
 
+After cloning repo into your local machine follow theses steps.
+
+Composer install:
+Link to download composer -> https://getcomposer.org/download/
+
+After installing composer on your local machine, navigate to the project directory and follow these steps.
 Install Dependencies:
 Composer install
 
@@ -26,3 +32,4 @@ php artisan key:generate
 Get the server running:
 php artisan serve
 
+Copy and paste localhost to web browser.
