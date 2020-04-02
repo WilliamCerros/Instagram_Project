@@ -2,6 +2,8 @@
 
 namespace App;
 
+
+use Laravel\Scout\Searchable;
 use App\Mail\NewUserWelcomeMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -11,6 +13,7 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable;
+    use Searchable;
 
     /**
      * The attributes that are mass assignable.
